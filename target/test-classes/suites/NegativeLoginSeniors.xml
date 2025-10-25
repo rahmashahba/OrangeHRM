@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Running Negative seniors For Login">
+    <parameter name="browsername" value=""/>
+    <parameter name="URL" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"/>
+
+    <test name="Check Negative seniors For Login With Invailed User Name ">
+        <classes>
+            <class name="TCs.TC01_LoginOrangehrm">
+                <methods>
+                    <exclude name="LoginWithvViledCredentials_P"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
