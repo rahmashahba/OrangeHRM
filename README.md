@@ -37,7 +37,11 @@ This project provides automated test scripts for the OrangeHRM demo application,
 ## ⚙️ Tech Stack & Tools 🔑 Features
 🛠 Framework Features
 ☕ **Java Language** – Strongly typed, object-oriented, and widely used for test automation.
+
 🧩 **Page Object Model (POM)** – Clean, modular, and reusable code structure for better maintainability.
+
 🧪 **TestNG Integration** – Structured test execution with grouping, parallel runs, and reporting.
+
 📂 **Data-Driven Testing (JSON)** – Flexible test data management for scalability and variation handling.
+
 🎨 **Fluent Design Pattern** – Enhances code readability with chainable, human-like test steps. "# OrangeHRM-" 
