@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-25T13:42:02 EEST" name="Running Negative seniors For Login" finished-at="2025-10-25T13:42:40 EEST" duration-ms="38300">
+  <suite started-at="2025-10-28T22:33:23 EEST" name="Running Negative seniors For Login" finished-at="2025-10-28T22:34:49 EEST" duration-ms="86397">
     <groups>
     </groups>
-    <test started-at="2025-10-25T13:42:02 EEST" name="Check positive seniors For Adding " finished-at="2025-10-25T13:42:40 EEST" duration-ms="38300">
+    <test started-at="2025-10-28T22:33:23 EEST" name="Check Negative seniors For Login With Invailed User Name " finished-at="2025-10-28T22:34:49 EEST" duration-ms="86397">
       <class name="TCs.TC01_LoginOrangehrm">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TCs.TC01_LoginOrangehrm@6a47b187]" started-at="2025-10-25T13:42:01 EEST" name="beforeSuite" finished-at="2025-10-25T13:42:02 EEST" duration-ms="206" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TCs.TC01_LoginOrangehrm@4fbe37eb]" started-at="2025-10-28T22:33:22 EEST" name="beforeSuite" finished-at="2025-10-28T22:33:23 EEST" duration-ms="1027" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="setup_driver(java.lang.String,java.lang.String)[pri:0, instance:TCs.TC01_LoginOrangehrm@6a47b187]" started-at="2025-10-25T13:42:02 EEST" name="setup_driver" finished-at="2025-10-25T13:42:21 EEST" duration-ms="19021" status="PASS">
+        <test-method is-config="true" signature="setup_driver(java.lang.String,java.lang.String)[pri:0, instance:TCs.TC01_LoginOrangehrm@4fbe37eb]" started-at="2025-10-28T22:33:23 EEST" name="setup_driver" finished-at="2025-10-28T22:33:51 EEST" duration-ms="28159" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,41 +27,159 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup_driver -->
-        <test-method signature="LoginWithvViledCredentials_P()[pri:1, instance:TCs.TC01_LoginOrangehrm@6a47b187]" started-at="2025-10-25T13:42:21 EEST" name="LoginWithvViledCredentials_P" description="Log in with vailed credentials successfully!" finished-at="2025-10-25T13:42:25 EEST" duration-ms="3940" status="PASS">
+        <test-method signature="LoginWithInvailedUserName_N()[pri:2, instance:TCs.TC01_LoginOrangehrm@4fbe37eb]" started-at="2025-10-28T22:33:52 EEST" name="LoginWithInvailedUserName_N" description="Log in with Invailed username" finished-at="2025-10-28T22:34:23 EEST" duration-ms="31665" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginWithvViledCredentials_P -->
-        <test-method is-config="true" signature="tearDown_driver()[pri:0, instance:TCs.TC01_LoginOrangehrm@6a47b187]" started-at="2025-10-25T13:42:40 EEST" name="tearDown_driver" finished-at="2025-10-25T13:42:40 EEST" duration-ms="327" status="PASS">
+        </test-method> <!-- LoginWithInvailedUserName_N -->
+        <test-method signature="LoginWithInvailedPassword_N()[pri:3, instance:TCs.TC01_LoginOrangehrm@4fbe37eb]" started-at="2025-10-28T22:34:24 EEST" name="LoginWithInvailedPassword_N" description="Log in with Invailed password" finished-at="2025-10-28T22:34:38 EEST" duration-ms="13964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithInvailedPassword_N -->
+        <test-method signature="LoginWithInvailedcredentials_N()[pri:4, instance:TCs.TC01_LoginOrangehrm@4fbe37eb]" started-at="2025-10-28T22:34:38 EEST" name="LoginWithInvailedcredentials_N" description="Log in with Invailed credentials" finished-at="2025-10-28T22:34:48 EEST" duration-ms="9510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithInvailedcredentials_N -->
+        <test-method is-config="true" signature="tearDown_driver()[pri:0, instance:TCs.TC01_LoginOrangehrm@4fbe37eb]" started-at="2025-10-28T22:34:48 EEST" name="tearDown_driver" finished-at="2025-10-28T22:34:49 EEST" duration-ms="1264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown_driver -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TCs.TC01_LoginOrangehrm@6a47b187]" started-at="2025-10-25T13:42:40 EEST" name="afterSuite" finished-at="2025-10-25T13:42:40 EEST" duration-ms="90" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TCs.TC01_LoginOrangehrm@4fbe37eb]" started-at="2025-10-28T22:34:49 EEST" name="afterSuite" finished-at="2025-10-28T22:34:50 EEST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- TCs.TC01_LoginOrangehrm -->
+    </test> <!-- Check Negative seniors For Login With Invailed User Name  -->
+  </suite> <!-- Running Negative seniors For Login -->
+  <suite started-at="2025-10-28T22:43:50 EEST" name="Running Negative seniors For Login (1)" finished-at="2025-10-28T22:46:30 EEST" duration-ms="159650">
+    <groups>
+    </groups>
+    <test started-at="2025-10-28T22:43:50 EEST" name="Check positive seniors For Adding " finished-at="2025-10-28T22:46:30 EEST" duration-ms="159650">
+      <class name="TCs.TC01_LoginOrangehrm">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TCs.TC01_LoginOrangehrm@5026735c]" started-at="2025-10-28T22:43:50 EEST" name="beforeSuite" finished-at="2025-10-28T22:43:50 EEST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setup_driver(java.lang.String,java.lang.String)[pri:0, instance:TCs.TC01_LoginOrangehrm@5026735c]" started-at="2025-10-28T22:43:50 EEST" name="setup_driver" finished-at="2025-10-28T22:44:29 EEST" duration-ms="38694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_driver -->
+        <test-method signature="LoginWithvViledCredentials_P()[pri:1, instance:TCs.TC01_LoginOrangehrm@5026735c]" started-at="2025-10-28T22:44:29 EEST" name="LoginWithvViledCredentials_P" description="Log in with vailed credentials successfully!" finished-at="2025-10-28T22:45:21 EEST" duration-ms="51735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithvViledCredentials_P -->
+        <test-method is-config="true" signature="tearDown_driver()[pri:0, instance:TCs.TC01_LoginOrangehrm@5026735c]" started-at="2025-10-28T22:46:24 EEST" name="tearDown_driver" finished-at="2025-10-28T22:46:30 EEST" duration-ms="5980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_driver -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TCs.TC01_LoginOrangehrm@5026735c]" started-at="2025-10-28T22:46:30 EEST" name="afterSuite" finished-at="2025-10-28T22:46:31 EEST" duration-ms="1120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- TCs.TC01_LoginOrangehrm -->
       <class name="TCs.TC03_AddEmployee">
-        <test-method signature="verifyUserCanAddEmployeeSuccessfully()[pri:1, instance:TCs.TC03_AddEmployee@6944e53e]" started-at="2025-10-25T13:42:25 EEST" name="verifyUserCanAddEmployeeSuccessfully" description="Log in with Invailed username" finished-at="2025-10-25T13:42:40 EEST" duration-ms="14879" status="PASS">
+        <test-method signature="verifyUserCanAddEmployeeSuccessfully()[pri:1, instance:TCs.TC03_AddEmployee@4fc3c165]" started-at="2025-10-28T22:45:21 EEST" name="verifyUserCanAddEmployeeSuccessfully" description="Log in with Invailed username" finished-at="2025-10-28T22:46:24 EEST" duration-ms="62951" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button data-v-10d463b7="" data-v-304890b0="" type="submit" class="oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space">...</button> is not clickable at point (891, 515). Other element would receive the click: <div data-v-d5bfe35b="" class="oxd-form-loader">...</div>
+  (Session info: chrome=141.0.7390.123)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2cf19b3c03010a389f11a367e9b120e, clickElement {id=f.DCEF86560FEB17D199ACA22DD992236C.d.3D84838F16F11171A4897ACCC72CF65C.e.77}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.123, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59244}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59244/devtoo..., se:cdpVersion: 141.0.7390.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b2cf19b3c03010a389f11a367e9b120e)] -> xpath: //button[normalize-space()='Save']]
+Session ID: b2cf19b3c03010a389f11a367e9b120e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button data-v-10d463b7="" data-v-304890b0="" type="submit" class="oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space">...</button> is not clickable at point (891, 515). Other element would receive the click: <div data-v-d5bfe35b="" class="oxd-form-loader">...</div>
+  (Session info: chrome=141.0.7390.123)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2cf19b3c03010a389f11a367e9b120e, clickElement {id=f.DCEF86560FEB17D199ACA22DD992236C.d.3D84838F16F11171A4897ACCC72CF65C.e.77}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.123, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59244}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59244/devtoo..., se:cdpVersion: 141.0.7390.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b2cf19b3c03010a389f11a367e9b120e)] -> xpath: //button[normalize-space()='Save']]
+Session ID: b2cf19b3c03010a389f11a367e9b120e
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at Pages.P03_AddEmployee.clickingSaveButton(P03_AddEmployee.java:63)
+at TCs.TC03_AddEmployee.verifyUserCanAddEmployeeSuccessfully(TC03_AddEmployee.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1269)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserCanAddEmployeeSuccessfully -->
       </class> <!-- TCs.TC03_AddEmployee -->
     </test> <!-- Check positive seniors For Adding  -->
-  </suite> <!-- Running Negative seniors For Login -->
-  <suite started-at="2025-10-25T13:43:04 EEST" name="All Test Suite" finished-at="2025-10-25T13:43:04 EEST" duration-ms="0">
+  </suite> <!-- Running Negative seniors For Login (1) -->
+  <suite started-at="2025-10-28T22:46:32 EEST" name="All Test Suite" finished-at="2025-10-28T22:46:32 EEST" duration-ms="0">
     <groups>
     </groups>
   </suite> <!-- All Test Suite -->
-  <suite started-at="2025-10-25T13:42:40 EEST" name="Running Negative seniors For Login (0)" finished-at="2025-10-25T13:43:02 EEST" duration-ms="21695">
+  <suite started-at="2025-10-28T22:34:50 EEST" name="Running Negative seniors For Login (0)" finished-at="2025-10-28T22:43:47 EEST" duration-ms="537735">
     <groups>
     </groups>
-    <test started-at="2025-10-25T13:42:40 EEST" name="Check positive seniors For Adding " finished-at="2025-10-25T13:43:02 EEST" duration-ms="21695">
+    <test started-at="2025-10-28T22:34:50 EEST" name="Check Negative seniors For Login With Invailed User Name " finished-at="2025-10-28T22:43:47 EEST" duration-ms="537735">
       <class name="TCs.TC01_LoginOrangehrm">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TCs.TC01_LoginOrangehrm@38d17d80]" started-at="2025-10-25T13:42:40 EEST" name="beforeSuite" finished-at="2025-10-25T13:42:40 EEST" duration-ms="104" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TCs.TC01_LoginOrangehrm@1bae316d]" started-at="2025-10-28T22:34:50 EEST" name="beforeSuite" finished-at="2025-10-28T22:34:50 EEST" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="setup_driver(java.lang.String,java.lang.String)[pri:0, instance:TCs.TC01_LoginOrangehrm@38d17d80]" started-at="2025-10-25T13:42:40 EEST" name="setup_driver" finished-at="2025-10-25T13:42:47 EEST" duration-ms="6463" status="PASS">
+        <test-method is-config="true" signature="setup_driver(java.lang.String,java.lang.String)[pri:0, instance:TCs.TC01_LoginOrangehrm@1bae316d]" started-at="2025-10-28T22:34:50 EEST" name="setup_driver" finished-at="2025-10-28T22:35:07 EEST" duration-ms="17842" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -77,25 +195,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup_driver -->
-        <test-method signature="LoginWithvViledCredentials_P()[pri:1, instance:TCs.TC01_LoginOrangehrm@38d17d80]" started-at="2025-10-25T13:42:47 EEST" name="LoginWithvViledCredentials_P" description="Log in with vailed credentials successfully!" finished-at="2025-10-25T13:42:53 EEST" duration-ms="6538" status="PASS">
+        <test-method signature="LoginWithvViledCredentials_P()[pri:1, instance:TCs.TC01_LoginOrangehrm@1bae316d]" started-at="2025-10-28T22:35:08 EEST" name="LoginWithvViledCredentials_P" description="Log in with vailed credentials successfully!" finished-at="2025-10-28T22:35:31 EEST" duration-ms="23204" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWithvViledCredentials_P -->
-        <test-method is-config="true" signature="tearDown_driver()[pri:0, instance:TCs.TC01_LoginOrangehrm@38d17d80]" started-at="2025-10-25T13:43:01 EEST" name="tearDown_driver" finished-at="2025-10-25T13:43:02 EEST" duration-ms="976" status="PASS">
+        <test-method is-config="true" signature="tearDown_driver()[pri:0, instance:TCs.TC01_LoginOrangehrm@1bae316d]" started-at="2025-10-28T22:43:43 EEST" name="tearDown_driver" finished-at="2025-10-28T22:43:47 EEST" duration-ms="4453" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown_driver -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TCs.TC01_LoginOrangehrm@38d17d80]" started-at="2025-10-25T13:43:02 EEST" name="afterSuite" finished-at="2025-10-25T13:43:02 EEST" duration-ms="55" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TCs.TC01_LoginOrangehrm@1bae316d]" started-at="2025-10-28T22:43:47 EEST" name="afterSuite" finished-at="2025-10-28T22:43:50 EEST" duration-ms="2525" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- TCs.TC01_LoginOrangehrm -->
-      <class name="TCs.TC03_AddEmployee">
-        <test-method signature="verifyUserCanAddUserRoleSuccessfully()[pri:2, instance:TCs.TC03_AddEmployee@5c82031b]" started-at="2025-10-25T13:42:53 EEST" name="verifyUserCanAddUserRoleSuccessfully" description="Log in with Invailed username" finished-at="2025-10-25T13:43:01 EEST" duration-ms="7636" status="PASS">
+      <class name="TCs.TC02_dashboard">
+        <test-method signature="assertLoggedInUserSideMenu()[pri:1, instance:TCs.TC02_dashboard@147a5d08]" started-at="2025-10-28T22:35:31 EEST" name="assertLoggedInUserSideMenu" description="Logged in user assert on side menu successfully!" finished-at="2025-10-28T22:42:57 EEST" duration-ms="446210" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyUserCanAddUserRoleSuccessfully -->
-      </class> <!-- TCs.TC03_AddEmployee -->
-    </test> <!-- Check positive seniors For Adding  -->
+        </test-method> <!-- assertLoggedInUserSideMenu -->
+        <test-method signature="viewAdminModule()[pri:1, instance:TCs.TC02_dashboard@147a5d08]" started-at="2025-10-28T22:42:57 EEST" name="viewAdminModule" description="Log in with vailed credentials successfully!" finished-at="2025-10-28T22:43:43 EEST" duration-ms="45967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewAdminModule -->
+      </class> <!-- TCs.TC02_dashboard -->
+    </test> <!-- Check Negative seniors For Login With Invailed User Name  -->
   </suite> <!-- Running Negative seniors For Login (0) -->
 </testng-results>

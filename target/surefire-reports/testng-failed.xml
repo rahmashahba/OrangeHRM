@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Running Negative seniors For Login (1)]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="browsername" value=""/>
+  <parameter name="URL" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"/>
+  <test thread-count="5" name="Check positive seniors For Adding (failed)" verbose="0">
+    <classes>
+      <class name="TCs.TC03_AddEmployee">
+        <methods>
+          <include name="tearDown_driver"/>
+          <include name="verifyUserCanAddEmployeeSuccessfully"/>
+          <include name="setup_driver"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- TCs.TC03_AddEmployee -->
+    </classes>
+  </test> <!-- Check positive seniors For Adding (failed) -->
+</suite> <!-- Failed suite [Running Negative seniors For Login (1)] -->

@@ -38,20 +38,9 @@ public class TC02_dashboard extends testbase {
     public void assertLoggedInUserSideMenu() throws InterruptedException {
 
 
-        new P02_sideMenu(getDriver()).pim();
-        new P02_sideMenu(getDriver()).leave();
-        new P02_sideMenu(getDriver()).time();
-        new P02_sideMenu(getDriver()).recruitment();
-        new P02_sideMenu(getDriver()).myInfo();
-        new P02_sideMenu(getDriver()).prformance();
-        new P02_sideMenu(getDriver()).dashboard();
-        new P02_sideMenu(getDriver()).directory();
-        new P02_sideMenu(getDriver()).maintenance();
+        new P02_sideMenu(getDriver()).pim().leave().time().recruitment().myInfo().prformance().dashboard().directory().maintenance();
         new P02_sideMenu(getDriver()).fillPassword(password).clickConfirmButton();
-        new P02_sideMenu(getDriver()).claim();
-
-
-        new P02_sideMenu(getDriver()).buzz();
+        new P02_sideMenu(getDriver()).claim().buzz();
 
 
     }
